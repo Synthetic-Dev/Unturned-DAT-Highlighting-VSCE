@@ -1,0 +1,33 @@
+{
+    "name": "Unturned DAT",
+    "scopeName": "source.udat",
+    "uuid": "2CEB3317-BBDE-454E-A3E9-B82EEC735533",
+    "fileTypes": [
+        "dat"
+    ],
+    "patterns": [
+        {
+            "include": "#expression"
+        },
+        {
+            "include": "#todo"
+        }
+    ],
+    "repository": {
+        "expression": {
+            "patterns": [
+                {
+                    "include": "#definition"
+                }
+            ]
+        },
+        "definition": {
+            "match": "\\w*",
+            "name": "keyword.definition"
+        },
+        "todo": {
+            "match": "TODO",
+            "name": "keyword.todo"
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+	"name": "unturned-dat",
+	"displayName": "Unturned DAT highlighting for VSCode",
+	"version": "0.0.1",
+	"description": "Syntax highlighter for Unturned DAT files",
+	"author": {
+		"name": "SyntheticDev"
+	},
+	"publisher": "syntheticdev",
+	"icon": "dist/resources/logo.png",
+	"galleryBanner": {
+		"color": "#317f4b",
+		"theme": "dark"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Synthetic-Dev/Unturned-DAT-Highlighting-VSCE/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Synthetic-Dev/Unturned-DAT-Highlighting-VSCE"
+	},
+	"engines": {
+		"vscode": "^1.48.0"
+	},
+	"categories": [
+		"Programming Languages",
+	],
+	"keywords": [
+		"unturned-dat"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "udat",
+				"aliases": [
+					"Unturned DAT"
+                ],
+                    "extensions": [
+					".dat"
+				],
+				"configuration": "./language-config.json"
+            }
+        ],
+		"grammars": [
+			{
+				"language": "udat",
+				"scopeName": "source.udat",
+				"path": "./dist/syntaxes/Unturned-DAT.tmLanguage.json"
+            }
+		]
+	},
+	"__metadata": {
+		"id": "",
+		"publisherId": "",
+		"publisherDisplayName": "SyntheticDev",
+		"date": "04/01/2021"
+	}
+}
