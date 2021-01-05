@@ -11,7 +11,7 @@
             "name": "keyword.definition"
         },
         {
-            "match": "//*",
+            "match": "//\\.",
             "name": "comment.line"
         }
     ]
