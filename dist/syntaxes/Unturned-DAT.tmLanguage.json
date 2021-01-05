@@ -7,27 +7,12 @@
     ],
     "patterns": [
         {
-            "include": "#expression"
-        },
-        {
-            "include": "#todo"
-        }
-    ],
-    "repository": {
-        "expression": {
-            "patterns": [
-                {
-                    "include": "#definition"
-                }
-            ]
-        },
-        "definition": {
             "match": "\\w*",
             "name": "keyword.definition"
         },
-        "todo": {
-            "match": "TODO",
-            "name": "keyword.todo"
+        {
+            "match": "//*",
+            "name": "comment.line"
         }
-    }
+    ]
 }

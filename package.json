@@ -1,12 +1,12 @@
 {
 	"name": "unturned-dat",
 	"displayName": "Unturned DAT highlighting for VSCode",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Syntax highlighter for Unturned DAT files",
 	"author": {
 		"name": "SyntheticDev"
 	},
-	"publisher": "syntheticdev",
+	"publisher": "SyntheticdevVSCE",
 	"icon": "dist/resources/logo.png",
 	"galleryBanner": {
 		"color": "#317f4b",
@@ -24,7 +24,7 @@
 		"vscode": "^1.48.0"
 	},
 	"categories": [
-		"Programming Languages",
+		"Programming Languages"
 	],
 	"keywords": [
 		"unturned-dat"
@@ -52,7 +52,7 @@
 	},
 	"__metadata": {
 		"id": "",
-		"publisherId": "",
+		"publisherId": "SyntheticdevVSCE",
 		"publisherDisplayName": "SyntheticDev",
 		"date": "04/01/2021"
 	}
