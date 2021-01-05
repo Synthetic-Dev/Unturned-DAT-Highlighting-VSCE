@@ -1,7 +1,7 @@
 {
 	"name": "unturned-dat",
 	"displayName": "Unturned DAT highlighting for VSCode",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Syntax highlighter for Unturned DAT files",
 	"author": {
 		"name": "SyntheticDev"
