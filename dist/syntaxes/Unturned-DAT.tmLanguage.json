@@ -12,7 +12,7 @@
         },
         {
             "match": "//.*$\n?",
-            "name": "comment.line",
+            "name": "comment.line.double-slash",
             "captures": {
                 "1": {
                     "name": "punctuation.definition.comment"

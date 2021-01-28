@@ -30,14 +30,23 @@
 		"unturned-dat"
 	],
 	"contributes": {
+		"themes": [
+			{
+				"id": "udat-colors",
+				"label": "DAT Colors",
+				"path": "./dist/themes/Unturned-DAT-color-theme.json",
+				"uiTheme": "vs"
+			}
+		],
 		"languages": [
 			{
 				"id": "udat",
 				"aliases": [
 					"Unturned DAT"
                 ],
-                    "extensions": [
-					".dat"
+                "extensions": [
+					".dat",
+					".unturned"
 				],
 				"configuration": "./language-config.json"
             }
